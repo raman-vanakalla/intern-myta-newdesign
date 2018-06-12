@@ -1,0 +1,204 @@
+
+
+body
+{
+	background-color: #edeff0;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2,
+.col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
+.col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3,
+.col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1,
+.col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
+.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12,
+.col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 
+{
+   padding: 0px 0px 0px 0px;
+   border-radius: 0px;
+}
+.row
+{
+	margin: 0px 0px 0px 0px;
+}
+.navbar
+{
+   background-color:#173445;
+
+
+}
+.menubar
+{
+	background-color:#1b3c4f;
+    position: fixed;
+}
+#logo
+{
+   background-color: #1b3c4f; 
+   
+}
+#logoImage
+{
+	padding-top:10%;
+	padding-left:20%;
+	height: 80%;
+	width: auto;
+}
+#logoText
+{
+	text-align: center;
+    color: white;
+}
+nav
+{
+	margin-top: 30px;
+}
+nav a
+{
+	float: right;
+	margin-right: 50px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #e6e6e6;
+}
+nav a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+svg
+{
+    margin-top: -10px;
+	border-radius: 50%;
+	background-color: #46a5bd;
+}
+svg path
+{
+	fill:white;
+}
+svg polygon
+{
+	fill:white;
+}
+svg:hover
+{
+    background-color:white;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+svg path:hover
+{
+	fill:#00B6EF;
+}
+svg polygon:hover
+{
+	fill:#00B6EF;
+}
+.subheader
+{
+	background-color:#006080;
+	height: 30px;
+}
+.subheader p
+{
+	text-align: center;
+	padding-top: 4px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 4px;
+
+}
+.list
+{
+    height: 30px;
+}
+.list p
+{
+	text-align: center;
+	padding-top: 4px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+}
+.list:hover
+{
+    background-color:#00b8f0;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+.navMenu
+{
+	
+    position: relative;
+    left: -2px;
+    background-color: #207799;
+    width: 100.25%;
+}
+
+.navMenuList
+{
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	padding-left: 10px;
+	padding-top: 1vh;
+	color: white;
+    width: 175px;
+    height: 35px;
+    background: #1e90ff;
+    margin-left: 0px;
+    -webkit-clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+}
+.text
+{
+	padding-top: 1vh;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: white;
+}
+
+#cards
+{
+	border-radius: 5px;
+	height: auto;
+	background-color: white;
+	margin: 50px 50px 50px 50px;
+}
+.card-img-top
+{
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	width: 80%;
+	height:200px;
+}
+
+.card
+{
+	background-color: #fa8900;
+	margin: 50px 0px 50px 50px;
+	border-radius: 15px;
+	height:250px;
+}
+.card-title
+{
+	
+	text-align: center;
+	color: white;
+}
+.card-body
+{
+	background-color: #ed6b00;
+}
+.card-body h3
+{
+	letter-spacing: 2px;
+	margin: 5px 0px 5px 0px;
+}
+.chapters
+{
+	background-color: #ededed;
+}
+

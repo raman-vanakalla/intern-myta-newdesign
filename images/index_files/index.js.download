@@ -1,0 +1,24 @@
+var W= window.innerWidth;
+var H= window.innerHeight;
+
+
+$('.menubar').css('height',H);
+$('.navbar').css('height',H/9);
+$('#logo').css('height',H/3);
+$('svg').css('height',H/16);
+
+$('#homeIcon').hover(function(){
+	$('svg polygon').css('fill','#00B6EF');
+},
+function()
+{
+	$('svg polygon').css('fill','white');
+});
+
+$('#userIcon').hover(function(){
+	$('svg path').css('fill','#00B6EF');
+},
+function()
+{
+	$('svg path').css('fill','white');
+});
